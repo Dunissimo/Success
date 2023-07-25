@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base classes */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  body {
+    margin: 0 20px;
+  }
+}
